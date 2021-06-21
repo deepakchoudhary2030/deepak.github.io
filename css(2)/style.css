@@ -22,7 +22,8 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color:black;
+  font-weight: 600;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -48,6 +49,7 @@ figure {
     font-size: 16px;
     width: 80%;
     margin: 20px auto 0px auto;
+
     color: #b3b3b3;
     font-style: italic;
     font-family: "Quicksand", Arial, sans-serif; }
@@ -80,7 +82,8 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  /* background: #f2f3f7; */
+background:linear-gradient(135deg, #C33764 10%, #1D2671 100%);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -96,6 +99,7 @@ figure {
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
+    
     margin: 0 auto;
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
@@ -140,7 +144,8 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          font-weight: 600;
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -155,7 +160,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #000;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
