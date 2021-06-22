@@ -89,6 +89,7 @@ background:linear-gradient(135deg, #C33764 10%, #1D2671 100%);
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
+      background:linear-gradient(135deg, #C33764 10%, #1D2671 100%);
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -237,7 +238,7 @@ background:linear-gradient(135deg, #C33764 10%, #1D2671 100%);
 
 #colorlib-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  /* background: #fff url(../images/loader.gif) no-repeat center center; */
   width: 100%;
   float: left;
   margin-bottom: 10em;
@@ -356,7 +357,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #f2f3f7;
+    background:linear-gradient(135deg, #C33764 10%, #1D2671 100%);
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
